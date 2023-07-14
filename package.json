@@ -1,0 +1,35 @@
+{
+  "name": "next-optimized-head",
+  "description": "Next.js `<Head/>` which orders elements to improve (perceived) page performance.",
+  "version": "0.0.0",
+  "author": "Jamie Mason <jamie@foldleft.io> (https://github.com/JamieMason)",
+  "bugs": "https://github.com/JamieMason/next-optimized-head/issues",
+  "devDependencies": {
+    "@types/react": "18.2.15",
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tsup": "7.1.0",
+    "typescript": "5.1.6"
+  },
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dis/index.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/JamieMason/next-optimized-head#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "peerDependencies": {
+    "next": "*"
+  },
+  "repository": "JamieMason/next-optimized-head",
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "prepack": "yarn build"
+  }
+}

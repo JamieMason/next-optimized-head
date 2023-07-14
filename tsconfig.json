@@ -1,0 +1,7 @@
+{
+  "include": ["./src/index.ts"],
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "strict": true
+  }
+}
