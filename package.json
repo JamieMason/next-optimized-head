@@ -1,7 +1,7 @@
 {
   "name": "next-optimized-head",
   "description": "Next.js `<Head/>` which orders elements to improve (perceived) page performance.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Jamie Mason <jamie@foldleft.io> (https://github.com/JamieMason)",
   "bugs": "https://github.com/JamieMason/next-optimized-head/issues",
   "devDependencies": {
